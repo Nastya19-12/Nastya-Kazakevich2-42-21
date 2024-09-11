@@ -1,0 +1,12 @@
+2024-09-11 08:56:37.0046 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-09-11 08:56:37.0475 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-11 08:56:37.0588 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-09-11 08:56:37.0857 Info Configuration initialized.
+2024-09-11 08:56:37.2987 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-09-11 08:56:37.2987 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-09-11 09:01:04.2099 Info Registered target NLog.Targets.FileTarget(Name=my-file)
+2024-09-11 09:01:04.2402 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-11 09:01:04.2463 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-09-11 09:01:04.2623 Info Configuration initialized.
+2024-09-11 09:01:04.3597 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
+2024-09-11 09:01:04.3597 Info Validating config: TargetNames=my-file, ConfigItems=24 ConfigSection=NLog
