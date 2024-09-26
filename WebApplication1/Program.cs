@@ -1,6 +1,9 @@
-
+//using PopovaPolinaOZKT_42_21.Middlewares;
+using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
+using WebApplication1.Database;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,9 +15,12 @@ try
     builder.Host.UseNLog();
 
     builder.Services.AddControllers();
-    //https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+
+    builder.Services.AddDbContext<StudentDbContext>(options =>
+        options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
     var app = builder.Build();
 
